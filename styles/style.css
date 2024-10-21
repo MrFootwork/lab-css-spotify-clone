@@ -49,5 +49,28 @@ nav ul li a {
 }
 
 section.hero {
-  margin-top: 5rem;
+  margin-top: 3rem;
+
+  background-image   : url("/images/landing.jpg");
+  background-size    : cover;
+  background-position: center;
+  width              : 100%;
+  aspect-ratio       : 16/9;
+
+  color          : white;
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+section.hero h1 {
+  font-size: 2rem;
+  padding  : 1rem 0;
+}
+
+section.hero p {
+  text-align : center;
+  line-height: 1rem;
+  font-size  : .75rem;
 }
