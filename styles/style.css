@@ -6,3 +6,48 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  position       : fixed;
+  top            : 0;
+  width          : 100%;
+  display        : flex;
+  justify-content: space-between;
+
+  background-color: white;
+}
+
+img#nav-logo {
+  width       : 10rem;
+  padding     : .5rem;
+  padding-left: 1rem;
+}
+
+nav ul {
+  display      : flex;
+  align-items  : stretch;
+  padding-right: 1rem;
+}
+
+nav li {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-direction : column;
+}
+
+nav ul li a {
+  padding    : 0 .5rem;
+  line-height: 3rem;
+
+  text-decoration: none;
+  color          : black;
+}
+
+section.hero {
+  margin-top: 5rem;
+}
